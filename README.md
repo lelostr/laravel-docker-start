@@ -19,4 +19,7 @@ docker run --rm -v $(pwd):/app -w /app composer create-project laravel/laravel .
 
 4. criar a pasta docker, que conterá os arquivos de configuração do projeto para rodar em docker
 
-5. criar o arquivo `.env`
+5. configurar o arquivo `.env`
+
+> O arquivo .env sera criado pelo laravel.  
+> Somente precisa definir as variaveis de conexao, de acordo com o arquivo env deste conteudo
